@@ -6,6 +6,8 @@ source $ZSH/oh-my-zsh.sh
 set -o vi
 alias kb="cd keyboards/handwired/dactyl_manuform/5x7/keymaps/alexgirarddev"
 alias pi="ssh pi@192.168.0.4"
+alias vim="nvim"
+alias v="nvim"
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
