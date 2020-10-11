@@ -1,8 +1,9 @@
-export ZSH="/home/alex/.oh-my-zsh"
+export ZSH="~/.oh-my-zsh"
 ZSH_THEME="agnoster"
 plugins=(git)
 plugins=(zsh-autosuggestions)
 source $ZSH/oh-my-zsh.sh
+source $ZSH/custom/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
 set -o vi
 alias kb="cd keyboards/handwired/dactyl_manuform/5x7/keymaps/alexgirarddev"
 alias pi="ssh pi@192.168.0.4"
