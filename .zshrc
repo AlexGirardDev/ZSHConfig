@@ -10,6 +10,7 @@ alias pi="ssh pi@192.168.0.4"
 alias vim="nvim"
 alias v="nvim"
 alias kr="sudo service klipper restart"
+alias kc="v ~/KlipperConfigX1/printer.cfg"
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
