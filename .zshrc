@@ -1,16 +1,24 @@
-export ZSH="~/.oh-my-zsh"
+export ZSH="/home/alex/.oh-my-zsh"
 ZSH_THEME="agnoster"
 plugins=(git)
 plugins=(zsh-autosuggestions)
+
 source $ZSH/oh-my-zsh.sh
-source $ZSH/custom/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
+source ~/.zsh-nvm/zsh-nvm.plugin.zsh
 set -o vi
-alias kb="cd keyboards/handwired/dactyl_manuform/5x7/keymaps/alexgirarddev"
+
+#Printer stuff
 alias pi="ssh pi@192.168.0.4"
-alias vim="nvim"
-alias v="nvim"
 alias kr="sudo service klipper restart"
 alias kc="v ~/KlipperConfigX1/printer.cfg"
+
+#Vim 
+alias vim="nvim"
+alias v="nvim"
+
+#QMK
+alias qc="qmk compile"
+alias qm="cd ~/dev/qmk_firmware/keyboards/handwired/dactyl_manuform/5x6_alexgirarddev"
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
